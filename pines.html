@@ -53,7 +53,7 @@
             <ul>
                 <li class="active"><a href="./index.html">Home</a></li>
                 <li><a href="./shop-grid.html">Top</a></li>
-                <li><a href="#">Categorias</a>
+                <li class="active"><a href="#">Categorias</a>
                     <ul class="header__menu__dropdown">
                         <li><a href="./shop-details.html">Shop Details</a></li>
                         <li><a href="./shoping-cart.html">Shoping Cart</a></li>
@@ -116,8 +116,8 @@
                     <nav class="header__menu">
                         <ul>
                             <li><a href="./index.html">Home</a></li>
-                            <li class="active"><a href="./Top.html">Top</a></li>
-                            <li><a href="#">Categorias</a>
+                            <li><a href="./Top.html">Top</a></li>
+                            <li class="active"><a href="#">Categorias</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="#">Pines</a></li>
                                     <li><a href="#">Llaveros</a></li>
@@ -167,11 +167,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="breadcrumb__text">
-                        <h2>Top</h2>
-                        <div class="breadcrumb__option">
+                    <div class="breadcrumb__texttop">
+                        <h2>Pines</h2>
+                        <div class="breadcrumb__optiontop">
                             <a href="./index.html">Home</a>
-                            <span>Shop</span>
+                            <span>Categorias/Pines</span>
                         </div>
                     </div>
                 </div>
@@ -183,178 +183,18 @@
     <!-- Product Section Begin -->
     <section class="product spad">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-5">
-                    <div class="sidebar">
-                        <div class="sidebar__item">
-                            <h4>Categoria</h4>
-                            <ul>
-                                <li><a href="#">Pines</a></li>
-                                <li><a href="#">Llaveros</a></li>
-                                <li><a href="#">Personalizados</a></li>
-                            </ul>
-                        </div>
-                        <div class="sidebar__item">
-                            <h4>Precio</h4>
-                            <div class="price-range-wrap">
-                                <div class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
-                                    data-min="10" data-max="540">
-                                    <div class="ui-slider-range ui-corner-all ui-widget-header"></div>
-                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
-                                    <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
-                                </div>
-                                <div class="range-slider">
-                                    <div class="price-input">
-                                        <input type="text" id="minamount">
-                                        <input type="text" id="maxamount">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sidebar__item sidebar__item__color--option">
-                            <h4>Colores</h4>
-                            <div class="sidebar__item__color sidebar__item__color--white">
-                                <label for="white">
-                                    Blanco
-                                    <input type="radio" id="white">
-                                </label>
-                            </div>
-                            <div class="sidebar__item__color sidebar__item__color--gray">
-                                <label for="gray">
-                                    Gray
-                                    <input type="radio" id="gray">
-                                </label>
-                            </div>
-                            <div class="sidebar__item__color sidebar__item__color--red">
-                                <label for="red">
-                                    Rojo
-                                    <input type="radio" id="red">
-                                </label>
-                            </div>
-                            <div class="sidebar__item__color sidebar__item__color--black">
-                                <label for="black">
-                                    Negro
-                                    <input type="radio" id="black">
-                                </label>
-                            </div>
-                            <div class="sidebar__item__color sidebar__item__color--blue">
-                                <label for="blue">
-                                    Azul
-                                    <input type="radio" id="blue">
-                                </label>
-                            </div>
-                            <div class="sidebar__item__color sidebar__item__color--green">
-                                <label for="green">
-                                    Verde
-                                    <input type="radio" id="green">
-                                </label>
-                            </div>
-                        </div>
-                        <div class="sidebar__item">
-                            <h4>Tamaños</h4>
-                            <div class="sidebar__item__size">
-                                <label for="large">
-                                    Grande
-                                    <input type="radio" id="large">
-                                </label>
-                            </div>
-                            <div class="sidebar__item__size">
-                                <label for="medium">
-                                    Mediano
-                                    <input type="radio" id="medium">
-                                </label>
-                            </div>
-                            <div class="sidebar__item__size">
-                                <label for="small">
-                                    Pequeño
-                                    <input type="radio" id="small">
-                                </label>
-                            </div>
-                            <div class="sidebar__item__size">
-                                <label for="tiny">
-                                    Mini
-                                    <input type="radio" id="tiny">
-                                </label>
-                            </div>
-                        </div>
-                        <div class="sidebar__item">
-                            <div class="latest-product__text">
-                                <h4>Más vendidos</h4>
-                                <div class="latest-product__slider owl-carousel">
-                                    <div class="latest-prdouct__slider__item">
-                                        <a href="#" class="latest-product__item">
-                                            <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/1.jpg" alt="" style="width: 100px; height: 120px;">
-                                            </div>
-                                            <div class="latest-product__item__text">
-                                                <h6>Pin Gato meme</h6>
-                                                <span>$30.00</span>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="latest-product__item">
-                                            <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/2.jpg" alt="" style="width: 100px; height: 120px;">
-                                            </div>
-                                            <div class="latest-product__item__text">
-                                                <h6>Pin One piece Hello Kitty</h6>
-                                                <span>$56.00</span>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="latest-product__item">
-                                            <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/3l.jpg" alt="" style="width: 100px; height: 120px;">
-                                            </div>
-                                            <div class="latest-product__item__text">
-                                                <h6>Llavero Michi Aveja</h6>
-                                                <span>$18.00</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="latest-prdouct__slider__item">
-                                        <a href="#" class="latest-product__item">
-                                            <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/4arte.jpg" alt="" style="width: 100px; height: 120px;">
-                                            </div>
-                                            <div class="latest-product__item__text">
-                                                <h6>Pin Arte Van gogh</h6>
-                                                <span>$50.00</span>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="latest-product__item">
-                                            <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/control.jpg" alt="" style="width: 100px; height: 120px;">
-                                            </div>
-                                            <div class="latest-product__item__text">
-                                                <h6>Pin Control Game</h6>
-                                                <span>$35.00</span>
-                                            </div>
-                                        </a>
-                                        <a href="#" class="latest-product__item">
-                                            <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/paleta.jpg" alt="" style="width: 100px; height: 120px;">
-                                            </div>
-                                            <div class="latest-product__item__text">
-                                                <h6>Pin Paleta Juego</h6>
-                                                <span>$41.00</span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-7">
-                    <div class="product__discount">
-                        <div class="section-title product__discount__title">
-                            <h2>Ofertas irresistibles</h2>
-                        </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="section-title product__discount__title text-center">
+                <h2>Destacados</h2>
+              </div>
                         <div class="row">
                             <div class="product__discount__slider owl-carousel">
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/1.jpg">
+                                            data-setbg="#">
+                                            <!-- aqui se pone imagen linea 196 -->
                                             <div class="product__discount__percent">-20%</div>
                                             <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
@@ -372,7 +212,7 @@
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/11.jpg">
+                                            data-setbg="#">
                                             <div class="product__discount__percent">-15%</div>
                                             <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
@@ -390,7 +230,7 @@
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/20.jpg">
+                                            data-setbg="#">
                                             <div class="product__discount__percent">-25%</div>
                                             <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
@@ -408,7 +248,7 @@
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/3l.jpg">
+                                            data-setbg="#">
                                             <div class="product__discount__percent">-20%</div>
                                             <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
@@ -426,7 +266,7 @@
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/13l.jpg">
+                                            data-setbg="#">
                                             <div class="product__discount__percent">-30%</div>
                                             <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
@@ -444,7 +284,7 @@
                                 <div class="col-lg-4">
                                     <div class="product__discount__item">
                                         <div class="product__discount__item__pic set-bg"
-                                            data-setbg="img/product/9l.jpg">
+                                            data-setbg="#">
                                             <div class="product__discount__percent">-20%</div>
                                             <ul class="product__item__pic__hover">
                                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
@@ -462,34 +302,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="filter__item">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-5">
-                                <div class="filter__sort">
-                                    <span>Sort By</span>
-                                    <select>
-                                        <option value="0">Default</option>
-                                        <option value="0">Default</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4">
-                                <div class="filter__found">
-                                    <h6><span>16</span> Products found</h6>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-3">
-                                <div class="filter__option">
-                                    <span class="icon_grid-2x2"></span>
-                                    <span class="icon_ul"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
+
+                    <section class="anime-banner text-white text-center d-flex flex-column justify-content-center align-items-center"
+                            style="background-image: url('img/hero/anime.jpg'); background-size: cover; background-position: center; height: 250px;">
+                    <h2 class="fw-bold mb-2">Anime</h2>
+                    <p class="mb-2">Home — Categorías / Anime</p>
+                    <div style="width: 60px; height: 4px; background-color: #fca311;"></div>
+                    </section>
+
+                    
+                    <div class="row">              
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-1.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="#">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -504,7 +329,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="img/product/product-2.jpg">
+                                <div class="product__item__pic set-bg" data-setbg="#">
                                     <ul class="product__item__pic__hover">
                                         <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                         <li><a href="#"><i class="fa fa-retweet"></i></a></li>

@@ -118,7 +118,49 @@ ol {
 	margin: 0;
 }
 
+
+
 /*---------------------
+Banners Pines 
+--------------------*/
+.anime-banner {
+	width: 100vw;
+	margin-left: calc(-50vw + 50%);
+	height: 300px;
+	background-image: url('img/hero/anime.jpg'); /* usa tu imagen real */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .anime-banner::before {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(11, 29, 58, 0.75); /* capa oscura para que el texto se lea */
+	z-index: 1;
+  }
+  
+  .anime-banner__content {
+	position: relative;
+	z-index: 2;
+  }
+  
+  .anime-banner__line {
+	width: 80px;
+	height: 4px;
+	background-color: #fca311;
+	margin: 0 auto;
+  }
+  
+  
+  /*---------------------
   Helper CSS
 -----------------------*/
 
@@ -1071,6 +1113,56 @@ ol {
 	padding: 15px 0 25px;
 }
 
+.breadcrumb__texttop h2{
+	font-size: 46px;
+	color: #F6F6F6;
+	font-weight: 700;
+}
+
+.breadcrumb__optiontop a {
+	display: inline-block;
+	font-size: 16px;
+	color: #F6F6F6;
+	font-weight: 700;
+	margin-right: 10px;
+	position: relative;
+}
+
+.breadcrumb__optiontop span {
+	display: inline-block;
+	font-size: 16px;
+	color: #F6F6F6;
+}
+
+.breadcrumb__optiontop a {
+	display: inline-block;
+	font-size: 16px;
+	color: #F6F6F6;
+	font-weight: 700;
+	margin-right: 10px;
+	position: relative;
+}
+
+.breadcrumb__optiontop a {
+	display: inline-block;
+	font-size: 16px;
+	color: #F6F6F6;
+	font-weight: 700;
+	margin-right: 10px;
+	position: relative;
+}
+
+.breadcrumb__optiontop a:after {
+	position: absolute;
+	right: -12px;
+	top: 13px;
+	height: 1px;
+	width: 10px;
+	background: #F6F6F6;
+	content: "";
+}
+
+
 .breadcrumb__text h2 {
 	font-size: 46px;
 	color: #0a0908;
@@ -1648,7 +1740,7 @@ ol {
 
 .product__pagination,
 .blog__pagination {
-	padding-top: 10px;
+	padding-top: 0px;
 }
 
 .product__pagination a,
